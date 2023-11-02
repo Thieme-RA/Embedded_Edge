@@ -1,2 +1,48 @@
 Name: Loggers
 Type: LoggersCategoryFolder
+Children:
+- Name: DataLogger1
+  Type: DataLogger
+  Children:
+  - Name: SamplingMode
+    Type: PropertyType
+    DataType: SamplingModeEnum
+    Value: 2
+  - Name: Store
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"8118f0bdd9fe8edb941d67b9c787a78b","Namespace":7}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":1,"Namespace":10}
+  - Name: VariablesToLog
+    Type: BaseObjectType
+  - Class: Reference
+    Target: ns=9;i=21
+    Direction: Forward
+  - Name: LogLocalTime
+    Type: PropertyType
+    DataType: Boolean
+    Value: true
+  - Name: LogVariableOperationCode
+    Type: PropertyType
+    DataType: Boolean
+    Value: true
+  - Name: SamplingPeriod
+    Type: PropertyType
+    DataType: Duration
+    Value: "0:00:00:1.0000000"
+  - Name: DefaultDeadBandMode
+    Type: PropertyType
+    DataType: DeadBandModeEnum
+    Value: 2
+  - Name: TableName
+    Type: PropertyType
+    DataType: String
+    Value: ""
+  - Name: DefaultDeadBandValue
+    Type: PropertyType
+    DataType: Double
+    Value: 1.0

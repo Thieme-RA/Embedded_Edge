@@ -1,0 +1,13 @@
+Name: 'Program:MainProgram'
+Type: FolderType
+Children:
+- Name: Local_Dint
+  Id: g=b6073f0b7fb61abc6598e8686bdb37f6
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MainProgram.Local_Dint"

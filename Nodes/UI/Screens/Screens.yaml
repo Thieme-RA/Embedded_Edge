@@ -39,6 +39,28 @@ Children:
       DataType: Color
       ModellingRule: Optional
       Value: "#2efe43"
+  - Name: Label1
+    Type: Label
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{NodeId:ns=7;g=b6073f0b-7fb6-1abc-6598-e8686bdb37f6}"
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 125.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 80.0
 - Name: Screen2
   Id: g=4ddfb8f5c2d6f0dbd18f96c7929af5c5
   Supertype: Screen

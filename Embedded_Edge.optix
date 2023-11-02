@@ -29,5 +29,29 @@ Project:
    Uri: 'urn:FTOptix:WebUI'
    Module: FTOptix.WebUI
    Version: 1.1
+  9:
+   Uri: 'urn:FTOptix:DataLogger'
+   Module: FTOptix.DataLogger
+   Version: 1.0
+  10:
+   Uri: 'urn:FTOptix:Store'
+   Module: FTOptix.Store
+   Version: 1.0
+  11:
+   Uri: 'urn:FTOptix:Report'
+   Module: FTOptix.Report
+   Version: 1.2
+  12:
+   Uri: 'urn:FTOptix:SQLiteStore'
+   Module: FTOptix.SQLiteStore
+   Version: 1.0
+  13:
+   Uri: 'urn:FTOptix:CommunicationDriver'
+   Module: FTOptix.CommunicationDriver
+   Version: 2.0
+  14:
+   Uri: 'urn:FTOptix:RAEtherNetIP'
+   Module: FTOptix.RAEtherNetIP
+   Version: 2.0
  Nodes:
  - File: Nodes/Embedded_Edge.yaml

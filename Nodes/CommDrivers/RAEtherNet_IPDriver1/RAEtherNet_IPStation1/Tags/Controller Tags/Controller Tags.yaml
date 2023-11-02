@@ -1,0 +1,30 @@
+Name: Controller Tags
+Type: FolderType
+Children:
+- Name: Bool
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Bool"
+- Name: dint
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "dint"
+- Name: string
+  Type: RAEtherNetIPTag
+  DataType: String
+  Value: ""
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "string"

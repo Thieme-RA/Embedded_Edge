@@ -1,2 +1,40 @@
 Name: Converters
 Type: ConvertersCategoryFolder
+Children:
+- Name: KeyValueConverter1
+  Id: g=6074965f389d067e51a2b6d8a76122f4
+  Supertype: ValueMapConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: Pairs
+    Type: BaseObjectType
+    ModellingRule: None
+    Children:
+    - Name: Pair
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 0
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#00ff00"
+    - Name: Pair1
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 1
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#17b817"
