@@ -34,6 +34,14 @@ Children:
           Type: StoreColumn
           DataType: DateTime
           Value: "1601-01-01T00:00:00.0000000"
+        - Name: TEST_STEPPER
+          Type: StoreColumn
+          DataType: Int32
+          Value: 0
+        - Name: TEST_STEPPER_Timestamp
+          Type: StoreColumn
+          DataType: UtcTime
+          Value: "1601-01-01T00:00:00.0000000"
   - Class: Reference
     Target: ns=12;i=30
     Direction: Forward

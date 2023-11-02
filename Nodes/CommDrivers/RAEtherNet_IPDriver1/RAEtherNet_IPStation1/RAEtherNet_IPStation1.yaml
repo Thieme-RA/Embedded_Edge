@@ -1,11 +1,11 @@
 Name: RAEtherNet_IPStation1
-Id: g=405bec06d14975126bcc1c91eeb845c8
+Id: g=10c3e5ee81653e70ebd38f4d72bdb39f
 Type: RAEtherNetIPStation
 Children:
 - Name: Route
   Type: BaseDataVariableType
   DataType: String
-  Value: "192.168.1.50\\backplane\\2"
+  Value: "192.168.1.6"
 - Name: StationStatusVariables
   Type: PropertyGroup
   Children:
